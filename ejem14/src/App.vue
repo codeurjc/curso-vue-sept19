@@ -4,6 +4,7 @@
     <br>
     <textarea v-model="name"></textarea>
     <p>{{name}}</p>
+    <p>Gender: {{gender}}</p>
 
     <br>
 
@@ -17,8 +18,8 @@
       {{item.value}}
     </span>
 
-    <input type="radio" name="gender" v-model="gender" value="Male"> Male
-    <input type="radio" name="gender" v-model="gender" value="Female"> Female
+    <input type="radio" name="gender" v-model="gender" value="Male2"> Male
+    <input type="radio" name="gender" v-model="gender" value="Female2"> Female
 
   </div>
 </template>
