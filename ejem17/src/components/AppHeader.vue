@@ -13,9 +13,6 @@ export default {
       show: true
     }
   },
-  props: {
-    title: undefined
-  },
   methods: {
     toggle: function(){
       this.show = !this.show;
