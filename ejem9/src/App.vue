@@ -11,19 +11,19 @@
 <script>
 export default {
   name: "app",
-  data: function(){
+  data: function() {
     return {
       isRed: false,
       isUnderlined: false
-    }
+    };
   },
   methods: {
-    toRed: function(){
+    toRed: function() {
       this.isRed = true;
       this.isUnderlined = true;
     }
   }
-}
+};
 </script>
 
 <style scoped>
